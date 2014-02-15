@@ -11,11 +11,15 @@
 #import "RecipeCollectionHeaderView.h"
 #import "RecipeViewController.h"
 
+
 @interface RecipeCollectionViewController : UICollectionViewController
 {
     NSArray *recipePhotos;
+    
 }
+
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 - (IBAction)shareButtonTouched:(id)sender;
+
 
 @end

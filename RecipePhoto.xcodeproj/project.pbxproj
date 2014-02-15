@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85CF0CB018A3786A00A3968B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CF0CAF18A3786A00A3968B /* Social.framework */; };
+		85EA333818A4A74B00068BC8 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EA333718A4A74B00068BC8 /* SimpleTableViewController.m */; };
 		85EF472C18A217DE0093DBAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF472B18A217DE0093DBAB /* Foundation.framework */; };
 		85EF472E18A217DE0093DBAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF472D18A217DE0093DBAB /* CoreGraphics.framework */; };
 		85EF473018A217DE0093DBAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EF472F18A217DE0093DBAB /* UIKit.framework */; };
@@ -57,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85CF0CAF18A3786A00A3968B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		85EA333618A4A74B00068BC8 /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		85EA333718A4A74B00068BC8 /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
 		85EF472818A217DE0093DBAB /* RecipePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EF472B18A217DE0093DBAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		85EF472D18A217DE0093DBAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CF0CB018A3786A00A3968B /* Social.framework in Frameworks */,
 				85EF472E18A217DE0093DBAB /* CoreGraphics.framework in Frameworks */,
 				85EF473018A217DE0093DBAB /* UIKit.framework in Frameworks */,
 				85EF472C18A217DE0093DBAB /* Foundation.framework in Frameworks */,
@@ -151,6 +157,7 @@
 		85EF472A18A217DE0093DBAB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85CF0CAF18A3786A00A3968B /* Social.framework */,
 				85EF472B18A217DE0093DBAB /* Foundation.framework */,
 				85EF472D18A217DE0093DBAB /* CoreGraphics.framework */,
 				85EF472F18A217DE0093DBAB /* UIKit.framework */,
@@ -196,6 +203,8 @@
 				85EF47D718A26E7B0093DBAB /* RecipeViewController.m */,
 				85EF474318A217DE0093DBAB /* Images.xcassets */,
 				85EF473218A217DE0093DBAB /* Supporting Files */,
+				85EA333618A4A74B00068BC8 /* SimpleTableViewController.h */,
+				85EA333718A4A74B00068BC8 /* SimpleTableViewController.m */,
 			);
 			path = RecipePhoto;
 			sourceTree = "<group>";
@@ -353,6 +362,7 @@
 				85EF478A18A241800093DBAB /* RecipeViewCell.m in Sources */,
 				85EF47D818A26E7B0093DBAB /* RecipeViewController.m in Sources */,
 				85EF47D518A254C00093DBAB /* RecipePhotoAppDelegate.m in Sources */,
+				85EA333818A4A74B00068BC8 /* SimpleTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
